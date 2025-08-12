@@ -63,9 +63,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				medical: {
-					blue: 'hsl(var(--medical-blue))',
-					'blue-light': 'hsl(var(--medical-blue-light))',
-					'blue-dark': 'hsl(var(--medical-blue-dark))'
+					green: 'hsl(var(--medical-green))',
+					'green-light': 'hsl(var(--medical-green-light))',
+					'green-dark': 'hsl(var(--medical-green-dark))'
 				},
 				emergency: {
 					red: 'hsl(var(--emergency-red))',

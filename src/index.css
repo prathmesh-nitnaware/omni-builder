@@ -17,41 +17,41 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 15%;
 
-    --primary: 220 85% 55%;
+    --primary: 150 47% 40%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96%;
-    --secondary-foreground: 220 15% 15%;
+    --secondary: 46 100% 97%;
+    --secondary-foreground: 240 10% 30%;
 
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 8% 46%;
+    --muted: 150 10% 95%;
+    --muted-foreground: 240 5% 50%;
 
-    --accent: 220 14% 96%;
-    --accent-foreground: 220 15% 15%;
+    --accent: 16 100% 66%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 220 85% 55%;
+    --border: 150 5% 90%;
+    --input: 150 5% 90%;
+    --ring: 150 47% 40%;
 
     /* Medical theme colors */
-    --medical-blue: 220 85% 55%;
-    --medical-blue-light: 220 85% 65%;
-    --medical-blue-dark: 220 85% 45%;
+    --medical-green: 150 47% 40%;
+    --medical-green-light: 150 47% 50%;
+    --medical-green-dark: 150 47% 30%;
     --emergency-red: 0 84% 60%;
     --emergency-red-light: 0 84% 70%;
-    --success-green: 140 70% 50%;
+    --success-green: 150 47% 40%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(220 85% 55%), hsl(220 85% 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 85% 55%) 0%, hsl(210 85% 65%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(150 47% 40%), hsl(150 47% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(150 47% 40%) 0%, hsl(150 50% 50%) 100%);
     --gradient-emergency: linear-gradient(135deg, hsl(0 84% 60%), hsl(0 84% 70%));
     
     /* Shadows */
-    --shadow-card: 0 2px 10px -2px hsl(220 85% 55% / 0.1);
-    --shadow-card-hover: 0 8px 25px -5px hsl(220 85% 55% / 0.2);
+    --shadow-card: 0 2px 10px -2px hsl(150 47% 40% / 0.1);
+    --shadow-card-hover: 0 8px 25px -5px hsl(150 47% 40% / 0.2);
     --shadow-emergency: 0 4px 15px -3px hsl(0 84% 60% / 0.3);
 
     --radius: 0.5rem;

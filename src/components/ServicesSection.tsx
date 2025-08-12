@@ -24,14 +24,14 @@ const ServicesSection = () => {
     {
       icon: Pill,
       title: 'Medicine Delivery',
-      description: 'Get your prescribed medicines delivered to your doorstep.',
+      description: 'Free home delivery of medicines across 500+ cities in India.',
       color: 'text-primary',
       bgColor: 'bg-primary/10'
     },
     {
       icon: Video,
       title: 'Video Consultation',
-      description: 'Consult with doctors from the comfort of your home via video call.',
+      description: 'Teleconsultation in Hindi, English & 15+ regional languages.',
       color: 'text-primary',
       bgColor: 'bg-primary/10'
     },
@@ -83,9 +83,9 @@ const ServicesSection = () => {
     <section className="py-20 bg-secondary/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-4xl font-bold mb-4">Healthcare Services Across India</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive healthcare services from prevention to cure, delivered with care and precision.
+            From tier-1 cities to remote villages - quality medical care accessible to every Indian family.
           </p>
         </div>
 

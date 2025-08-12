@@ -14,29 +14,45 @@ const EmergencySection = () => {
               <h2 className="text-3xl font-bold">Emergency Services</h2>
             </div>
             <p className="text-lg mb-8 text-red-100">
-              We provide 24/7 emergency medical services. Our qualified medical staff 
-              are always available for emergency situations.
+              24/7 emergency services across India. Qualified doctors & ambulance services 
+              available in 500+ cities with multilingual support.
             </p>
             
             <div className="space-y-4 mb-8">
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-3" />
-                <span className="font-semibold">Emergency Hotline: 555</span>
+                <span className="font-semibold">Emergency: 108 (Free)</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-3" />
-                <span>Emergency Dispatch: 24hr service</span>
+                <span>Ambulance Available in 500+ Cities</span>
               </div>
               <div className="flex items-center">
                 <Clock className="w-5 h-5 mr-3" />
-                <span>Available: 24/7</span>
+                <span>Available: 24/7/365</span>
               </div>
             </div>
 
-            <Button variant="hero" size="lg" className="w-full bg-white text-emergency-red hover:bg-white/90">
-              <Phone className="w-5 h-5 mr-2" />
-              Call Emergency
-            </Button>
+            <div className="space-y-3">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="w-full bg-white text-emergency-red hover:bg-white/90"
+                onClick={() => window.open('tel:108')}
+              >
+                <Phone className="w-5 h-5 mr-2" />
+                Call Ambulance (108)
+              </Button>
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="w-full bg-white/10 border-white/30 text-white hover:bg-white/20"
+                onClick={() => window.open('tel:102')}
+              >
+                <Phone className="w-5 h-5 mr-2" />
+                Call Emergency (102)
+              </Button>
+            </div>
           </div>
 
           {/* Right side - Get Emergency Help */}

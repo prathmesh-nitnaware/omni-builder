@@ -21,19 +21,19 @@ const Navbar = () => {
       {/* Top bar with contact info */}
       <div className="bg-primary text-primary-foreground py-2">
         <div className="container mx-auto px-4 flex justify-between items-center text-sm">
-          <div className="flex items-center space-x-6">
-            <div className="flex items-center space-x-2">
-              <Phone className="w-4 h-4" />
-              <span>Emergency: +1 (555) 123-4567</span>
+            <div className="flex items-center space-x-6">
+              <div className="flex items-center space-x-2">
+                <Phone className="w-4 h-4" />
+                <span>Emergency: 108 (Free)</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Clock className="w-4 h-4" />
+                <span>24/7 सेवा उपलब्ध</span>
+              </div>
             </div>
-            <div className="flex items-center space-x-2">
-              <Clock className="w-4 h-4" />
-              <span>24/7 Available</span>
+            <div className="hidden md:block">
+              <span>आपका स्वास्थ्य, हमारी प्राथमिकता</span>
             </div>
-          </div>
-          <div className="hidden md:block">
-            <span>Your Health, Our Priority</span>
-          </div>
         </div>
       </div>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="text-2xl font-bold text-primary">
-              HealthCare+
+              स्वास्थ्य+ 
             </Link>
           </div>
 
