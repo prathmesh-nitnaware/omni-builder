@@ -22,12 +22,12 @@ const HeroSection = () => {
           {/* Left side - Content */}
           <div className="text-white">
             <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Affordable Healthcare, <br />
-              <span className="text-green-200">For Every Indian</span>
+              Quick Healthcare, <br />
+              <span className="text-blue-200">Anytime, Anywhere</span>
             </h1>
-            <p className="text-xl mb-8 text-green-100 leading-relaxed">
-              Quality medical care from qualified MBBS doctors across India. 
-              Available 24/7 with Hindi, English & regional language support.
+            <p className="text-xl mb-8 text-blue-100 leading-relaxed">
+              Dr. Quick connects you with qualified MBBS doctors across India instantly. 
+              Expert medical advice, wellness programs & emergency care - all in one platform.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link to="/book-appointment">

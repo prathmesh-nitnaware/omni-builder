@@ -5,22 +5,24 @@ import { cva, type VariantProps } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:scale-105 active:scale-95",
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm hover:shadow-md",
+        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-sm hover:shadow-md hover:shadow-glow",
         destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90",
+          "bg-destructive text-destructive-foreground hover:bg-destructive/90 hover:shadow-md",
         outline:
-          "border border-input bg-background hover:bg-accent hover:text-accent-foreground",
+          "border border-input bg-background hover:bg-accent hover:text-accent-foreground hover:border-primary/50",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/80",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
-        medical: "gradient-primary text-white hover:opacity-90 shadow-card hover:shadow-card-hover",
-        emergency: "gradient-emergency text-white hover:opacity-90 shadow-emergency",
-        hero: "gradient-hero text-white hover:opacity-90 shadow-card hover:shadow-card-hover border border-white/20",
+          "bg-secondary text-secondary-foreground hover:bg-secondary/80 hover:shadow-md",
+        ghost: "hover:bg-accent hover:text-accent-foreground hover:shadow-sm",
+        link: "text-primary underline-offset-4 hover:underline hover:text-primary/80",
+        medical: "gradient-primary text-white hover:opacity-90 shadow-card hover:shadow-card-hover hover:shadow-glow",
+        emergency: "gradient-emergency text-white hover:opacity-90 shadow-emergency hover:shadow-md",
+        hero: "gradient-hero text-white hover:opacity-90 shadow-card hover:shadow-card-hover border border-white/20 hover:border-white/40",
+        wellness: "gradient-wellness text-white hover:opacity-90 shadow-wellness hover:shadow-card-hover",
+        chatbot: "gradient-chatbot text-white hover:opacity-90 shadow-card hover:shadow-glow",
       },
       size: {
         default: "h-10 px-4 py-2",

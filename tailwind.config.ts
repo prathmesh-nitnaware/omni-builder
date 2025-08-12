@@ -63,16 +63,19 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				medical: {
-					green: 'hsl(var(--medical-green))',
-					'green-light': 'hsl(var(--medical-green-light))',
-					'green-dark': 'hsl(var(--medical-green-dark))'
+					teal: 'hsl(var(--medical-teal))',
+					'teal-light': 'hsl(var(--medical-teal-light))',
+					'teal-dark': 'hsl(var(--medical-teal-dark))',
+					mint: 'hsl(var(--medical-mint))',
+					soft: 'hsl(var(--medical-soft))'
 				},
 				emergency: {
 					red: 'hsl(var(--emergency-red))',
 					'red-light': 'hsl(var(--emergency-red-light))'
 				},
-				success: {
-					green: 'hsl(var(--success-green))'
+				wellness: {
+					green: 'hsl(var(--wellness-green))',
+					blue: 'hsl(var(--wellness-blue))'
 				}
 			},
 			borderRadius: {

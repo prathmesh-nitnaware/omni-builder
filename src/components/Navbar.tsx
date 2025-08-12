@@ -32,7 +32,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="hidden md:block">
-              <span>आपका स्वास्थ्य, हमारी प्राथमिकता</span>
+              <span>Your Health, Our Priority | Quick & Reliable Care</span>
             </div>
         </div>
       </div>
@@ -42,8 +42,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="text-2xl font-bold text-primary">
-              स्वास्थ्य+ 
+            <Link to="/" className="text-2xl font-bold text-primary hover:text-primary/80 transition-colors">
+              Dr. Quick
             </Link>
           </div>
 
