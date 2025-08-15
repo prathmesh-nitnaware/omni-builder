@@ -31,11 +31,13 @@ const BookAppointment = () => {
   ];
 
   const appointmentTypes = [
-    { value: 'consultation', label: 'General Consultation', duration: '30 min', price: '$150' },
-    { value: 'checkup', label: 'Health Checkup', duration: '45 min', price: '$200' },
-    { value: 'followup', label: 'Follow-up Visit', duration: '20 min', price: '$100' },
-    { value: 'emergency', label: 'Urgent Care', duration: '30 min', price: '$250' },
-    { value: 'video', label: 'Video Consultation', duration: '25 min', price: '$120' },
+    { value: 'walk-in-consultation', label: 'Walk-in General Consultation', duration: '30 min', price: '₹12,000', type: 'walk-in' },
+    { value: 'video-consultation', label: 'Video General Consultation', duration: '25 min', price: '₹8,000', type: 'video' },
+    { value: 'walk-in-checkup', label: 'Walk-in Health Checkup', duration: '45 min', price: '₹16,000', type: 'walk-in' },
+    { value: 'video-checkup', label: 'Video Health Checkup', duration: '35 min', price: '₹12,000', type: 'video' },
+    { value: 'walk-in-followup', label: 'Walk-in Follow-up Visit', duration: '20 min', price: '₹8,000', type: 'walk-in' },
+    { value: 'video-followup', label: 'Video Follow-up Visit', duration: '15 min', price: '₹6,000', type: 'video' },
+    { value: 'urgent-walk-in', label: 'Urgent Walk-in Care', duration: '30 min', price: '₹20,000', type: 'urgent-walk-in' },
   ];
 
   return (

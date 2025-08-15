@@ -7,24 +7,27 @@ const AppointmentSection = () => {
   const appointmentTypes = [
     {
       icon: User,
-      title: 'In-Person Visit',
+      title: 'Walk-in Consultation',
       description: 'Schedule a face-to-face consultation with our experienced doctors.',
       duration: '30-60 minutes',
-      price: 'From $150'
+      price: 'From ₹12,000',
+      type: 'walk-in'
     },
     {
       icon: Video,
       title: 'Video Consultation', 
       description: 'Connect with doctors remotely from the comfort of your home.',
       duration: '15-45 minutes',
-      price: 'From $100'
+      price: 'From ₹8,000',
+      type: 'video'
     },
     {
       icon: Clock,
-      title: 'Urgent Care',
-      description: 'Same-day appointments for urgent but non-emergency medical needs.',
+      title: 'Urgent Walk-in Care',
+      description: 'Same-day walk-in appointments for urgent but non-emergency medical needs.',
       duration: '20-40 minutes',
-      price: 'From $200'
+      price: 'From ₹16,000',
+      type: 'urgent-walk-in'
     }
   ];
 
